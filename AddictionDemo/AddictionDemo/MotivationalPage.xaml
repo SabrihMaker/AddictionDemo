@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AddictionDemo.MotivationalPage"
+             BackgroundImageSource="cloud.jpg">
+    
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image Source="xbox.png"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+
+            <Button
+                x:Name="NextButton"
+                Text="Next"
+                TextColor="Black"
+                FontSize="18"
+                CornerRadius="20"
+                BorderWidth="2"
+                BorderColor="Black"
+                Margin="10"
+                BackgroundColor="Aqua"
+                Clicked="NextButton_Clicked"/>
+                
+                
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

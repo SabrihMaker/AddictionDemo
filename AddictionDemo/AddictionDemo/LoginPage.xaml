@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AddictionDemo.LoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                  x:Name="LogInButton"
+                  Text="Login"
+                  TextColor="Purple"
+                  BorderWidth="2"
+                  BorderColor="Purple"
+                  BackgroundColor="HotPink"
+                  Margin="10,0,10,0"
+                  FontSize="18"
+                  HeightRequest="60"
+                  CornerRadius="60"
+                  Clicked="LogInButton_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

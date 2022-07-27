@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AddictionDemo.JournalPage"
+             BackgroundImageSource="journal.jpg">
+  
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Journal"
+                   TextColor="White"
+                   FontSize="35"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Center"
+                   Padding="20"/>
+            
+                <AbsoluteLayout>
+                    <Label Text="Write whatever you're feeling."
+                           TextColor="White"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           VerticalOptions="Start"
+                           HorizontalOptions="Center"
+                           Padding="60,0"/>
+                </AbsoluteLayout>
+
+
+            <Grid RowSpacing="10" RowDefinitions="Auto,Auto,Auto,Auto">
+                <StackLayout Grid.Row="3">
+                <Frame 
+                    OutlineColor="Black"
+                    BackgroundColor="White"
+                    Margin="10"
+                    Padding="1"
+                    HeightRequest="80"
+                    CornerRadius="0">
+                    <Entry
+                        TextColor="Black"
+                        FontSize="18"
+                        Placeholder="Add Text"
+                        PlaceholderColor="Blue"/>
+                </Frame>
+
+                <Frame 
+                    OutlineColor="Black"
+                    BackgroundColor="White"
+                    Margin="10"
+                    Padding="1,0"
+                    HeightRequest="80"
+                    CornerRadius="0">
+                    <Entry
+                        TextColor="Black"
+                        FontSize="18"
+                        Placeholder="Add Text"
+                        PlaceholderColor="Blue"/>
+                 </Frame>
+
+
+                    <Frame 
+                    OutlineColor="Black"
+                    BackgroundColor="White"
+                    Margin="10"
+                    Padding="1,0"
+                    HeightRequest="80"
+                    CornerRadius="0">
+                        <Entry
+                        TextColor="Black"
+                        FontSize="18"
+                        Placeholder="Add Text"
+                        PlaceholderColor="Blue"/>
+                    </Frame>
+
+                    <Frame 
+                    OutlineColor="Black"
+                    BackgroundColor="White"
+                    Margin="10"
+                    Padding="1,0"
+                    HeightRequest="80"
+                    CornerRadius="0">
+                        <Entry
+                        TextColor="Black"
+                        FontSize="18"
+                        Placeholder="Add Text"
+                        PlaceholderColor="Blue"/>
+                    </Frame>
+
+
+                    <Frame 
+                    OutlineColor="Black"
+                    BackgroundColor="White"
+                    Margin="10"
+                    Padding="1,0"
+                    HeightRequest="80"
+                    CornerRadius="0">
+                        <Entry
+                        TextColor="Black"
+                        FontSize="18"
+                        Placeholder="Add Text"
+                        PlaceholderColor="Blue"/>
+                    </Frame>
+                </StackLayout>
+        </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

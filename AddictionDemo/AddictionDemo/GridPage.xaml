@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AddictionDemo.GridPage"
+             BackgroundColor="Green">
+
+    <ContentPage.Content>
+        <Grid>
+
+            <Button Text="Journal"
+                    TextColor="White"
+                    BackgroundColor="Purple"
+                    BorderRadius="0"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"
+                    HeightRequest="361"
+                    WidthRequest="196"
+                    Margin="0,0"
+                    Clicked="Button_Clicked">
+            </Button>
+
+            <Button Text="Need Help?"
+                    TextColor="White"
+                    BackgroundColor="OrangeRed"
+                    VerticalOptions="End"
+                    HorizontalOptions="Start"
+                    HeightRequest="361"
+                    WidthRequest="196"
+                    Margin="0"
+                    Clicked="Button_Clicked_1">
+            </Button>
+
+            <Button Text="Find Community"
+                    TextColor="White"
+                    BackgroundColor="DeepPink"
+                    VerticalOptions="Start"
+                    HorizontalOptions="End"
+                    HeightRequest="361"
+                    WidthRequest="196"
+                    Margin="0,0"
+                    Clicked="Button_Clicked_2">
+            </Button>
+
+            <Button Text="Schedule Meeting"
+                    TextColor="White"
+                    BackgroundColor="Cyan"
+                    VerticalOptions="End"
+                    HorizontalOptions="End"
+                    HeightRequest="361"
+                    WidthRequest="196"
+                    Margin="0"
+                    Clicked="Button_Clicked_3">
+            </Button>
+
+
+        </Grid>
+    </ContentPage.Content>
+  
+</ContentPage>

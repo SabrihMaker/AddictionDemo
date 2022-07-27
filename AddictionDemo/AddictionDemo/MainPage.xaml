@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AddictionDemo.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="splash.jpg">
+
+
+    <ContentPage.Content>
+    <StackLayout HorizontalOptions="Center"
+                 VerticalOptions="Center" Padding="10">
+        <Image Source="image.png" x:Name="imgLogo" HeightRequest="300"
+                                               WidthRequest="300"/>
+            <Label Text="GIVE HUGS NOT DRUGS" FontAttributes="Bold, Italic" TextColor="Black"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
