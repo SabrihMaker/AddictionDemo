@@ -8,8 +8,11 @@
         <Grid>
 
             <Button Text="Journal"
-                    TextColor="White"
-                    BackgroundColor="Purple"
+                    FontSize="Title"
+                    TextColor="Black"
+                    BackgroundColor="LightCyan"
+                    BorderWidth="2"
+                    BorderColor="Black"
                     BorderRadius="0"
                     VerticalOptions="Start"
                     HorizontalOptions="Start"
@@ -20,8 +23,11 @@
             </Button>
 
             <Button Text="Need Help?"
-                    TextColor="White"
-                    BackgroundColor="OrangeRed"
+                    FontSize="Title"
+                    TextColor="Black"
+                    BackgroundColor="DarkCyan"
+                    BorderWidth="2"
+                    BorderColor="Black"
                     VerticalOptions="End"
                     HorizontalOptions="Start"
                     HeightRequest="361"
@@ -31,8 +37,11 @@
             </Button>
 
             <Button Text="Find Community"
-                    TextColor="White"
-                    BackgroundColor="DeepPink"
+                    FontSize="Title"
+                    TextColor="Black"
+                    BackgroundColor="DarkCyan"
+                    BorderWidth="2"
+                    BorderColor="Black"
                     VerticalOptions="Start"
                     HorizontalOptions="End"
                     HeightRequest="361"
@@ -42,8 +51,11 @@
             </Button>
 
             <Button Text="Schedule Meeting"
-                    TextColor="White"
-                    BackgroundColor="Cyan"
+                    FontSize="Title"
+                    TextColor="Black"
+                    BackgroundColor="LightCyan"
+                    BorderWidth="2"
+                    BorderColor="Black"
                     VerticalOptions="End"
                     HorizontalOptions="End"
                     HeightRequest="361"

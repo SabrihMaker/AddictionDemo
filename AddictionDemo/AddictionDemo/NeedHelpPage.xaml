@@ -2,15 +2,45 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AddictionDemo.NeedHelpPage"
-             BackgroundImageSource="need.jpg">
+             BackgroundColor="DarkCyan">
     
     
     
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Need Help?"
+                   TextColor="White"
+                   FontSize="35"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"
+                   Padding="20"/>
+
+            <Button x:Name="CallMySponsorButton"
+                    Text="Call my sponsor"
+                    TextColor="White"
+                    BorderWidth="2"
+                    BorderColor="Black"
+                    BackgroundColor="Blue"
+                    Margin="10,0,10,0"
+                    FontSize="18"
+                    HeightRequest="60"
+                    CornerRadius="60"
+                    Clicked="CallMySponsorButton_Clicked"/>
+
+
+            <Button x:Name="EmergencyHotlineButton"
+                    Text="Emergency Hotline"
+                    TextColor="White"
+                    BorderWidth="2"
+                    BorderColor="Black"
+                    Margin="10,0,10,0"
+                    FontSize="18"
+                    Clicked="EmergencyHotlineButton_Clicked"
+                    HeightRequest="60"
+                    CornerRadius="90"
+                    BackgroundColor="IndianRed"
+                    CharacterSpacing="5"/>
         </StackLayout>
     </ContentPage.Content>
-</ContentPage>
+</ContentPage>  

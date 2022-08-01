@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AddictionDemo.MotivationalPage"
-             BackgroundImageSource="cloud.jpg">
+             BackgroundColor="LightCyan">
     
     <ContentPage.Content>
         <StackLayout>
@@ -14,13 +14,13 @@
             <Button
                 x:Name="NextButton"
                 Text="Next"
-                TextColor="Black"
+                TextColor="White"
                 FontSize="18"
                 CornerRadius="20"
                 BorderWidth="2"
-                BorderColor="Black"
+                BorderColor="White"
                 Margin="10"
-                BackgroundColor="Aqua"
+                BackgroundColor="Black"
                 Clicked="NextButton_Clicked"/>
                 
                 

@@ -16,5 +16,15 @@ namespace AddictionDemo
         {
             InitializeComponent();
         }
+
+        private void CallMySponsorButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EmergencyHotlineButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

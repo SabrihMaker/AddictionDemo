@@ -2,12 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AddictionDemo.JournalPage"
-             BackgroundImageSource="journal.jpg">
+             BackgroundColor="LightCyan">
   
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Journal"
-                   TextColor="White"
+                   TextColor="Black"
                    FontSize="35"
                    FontAttributes="Bold"
                    VerticalOptions="Start" 
@@ -16,7 +16,7 @@
             
                 <AbsoluteLayout>
                     <Label Text="Write whatever you're feeling."
-                           TextColor="White"
+                           TextColor="Black"
                            FontSize="20"
                            FontAttributes="Bold"
                            VerticalOptions="Start"
@@ -38,7 +38,7 @@
                         TextColor="Black"
                         FontSize="18"
                         Placeholder="Add Text"
-                        PlaceholderColor="Blue"/>
+                        PlaceholderColor="Gray"/>
                 </Frame>
 
                 <Frame 
@@ -52,7 +52,7 @@
                         TextColor="Black"
                         FontSize="18"
                         Placeholder="Add Text"
-                        PlaceholderColor="Blue"/>
+                        PlaceholderColor="Gray"/>
                  </Frame>
 
 
@@ -67,7 +67,7 @@
                         TextColor="Black"
                         FontSize="18"
                         Placeholder="Add Text"
-                        PlaceholderColor="Blue"/>
+                        PlaceholderColor="Gray"/>
                     </Frame>
 
                     <Frame 
@@ -81,7 +81,7 @@
                         TextColor="Black"
                         FontSize="18"
                         Placeholder="Add Text"
-                        PlaceholderColor="Blue"/>
+                        PlaceholderColor="Gray"/>
                     </Frame>
 
 
@@ -96,7 +96,7 @@
                         TextColor="Black"
                         FontSize="18"
                         Placeholder="Add Text"
-                        PlaceholderColor="Blue"/>
+                        PlaceholderColor="Gray"/>
                     </Frame>
                 </StackLayout>
         </Grid>
